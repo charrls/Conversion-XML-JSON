@@ -2,8 +2,8 @@ plugins {
     id 'java'
 }
 
-group 'org.example'
-version '1.0-SNAPSHOT'
+group 'org.json'
+version '20201115'
 
 repositories {
     mavenCentral()
@@ -14,6 +14,8 @@ dependencies {
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
 
     implementation 'com.google.code.gson:gson:2.9.0'
+    implementation 'org.json:json:20201115'
+
 }
 
 test {
