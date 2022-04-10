@@ -41,7 +41,6 @@ public class JSONaXML {
             e.printStackTrace();
         }
 
-////
     }
     public class Sale {
 
